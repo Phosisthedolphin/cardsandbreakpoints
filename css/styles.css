@@ -3,6 +3,7 @@
 header {
     height: 80px;
     background: rgba(52,78,127,1);
+    position: relative;
 }
 .hero {
     height: 500px;
@@ -11,6 +12,7 @@ header {
     background-image: url(../img/melodramaticoceanman.jpg);
     background-size: cover;
     background-position: 50% 25%;
+    position: relative;
 }
 section {
     margin: 80px 0;
@@ -19,12 +21,13 @@ section {
     width: 400px;
     height: 500px;
 }
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 700px) {
     .card {
     display: inline-block;
     width: 30%;
     vertical-align: top;
     margin-right: 7px;
+    position: relative;
     }
 }
 .card-image {
@@ -32,9 +35,11 @@ section {
     height: 50%;
     border-radius: 15px;
     overflow: hidden;
+    position: relative;
 }
 .card-text {
     width: 30%;
+    position: relative;
 }
 img {
     width: 100%;
